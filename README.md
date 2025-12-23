@@ -101,20 +101,35 @@ Solução: adicionado VLAN 60 ao allowed VLAN do trunk.
 Observação: VLAN 70 removida por instabilidade de configuração.
 
 
+
+
 2️⃣ Resultados de comandos importantes
+
 show vlan brief → mostra quais VLANs estão ativas no switch.
+
 show ip interface brief → mostra status de interfaces e se estão UP/UP, IP atribuído.
+
 show interface trunk → mostra trunk ativo, VLANs permitidas e em forwarding.
+
 show running-config → valida configurações do switch e do roteador.
+
 show arp → verifica se o roteador aprendeu os MACs dos PCs.
+
 ping → testes de conectividade entre VLANs e gateways.
 
 
+
+
 3️⃣ Documentação recomendada para cada lab
+
 Tabela de VLANs (VLAN, subinterface, IP, porta switch) ✅
+
 Tabela de resultados de testes (ping, ARP, trunk, status interfaces) ✅
+
 Problemas encontrados e soluções (troubleshooting) ✅
+
 Observações extras (ex: VLAN removida, trunk ajustado) ✅
+
 
 
 🔹 Conclusão
